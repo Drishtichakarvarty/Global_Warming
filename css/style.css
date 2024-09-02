@@ -251,11 +251,11 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/breadcrumb-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/e.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0 0 0;
+    padding: 300px 0 0 0;
 }
 /*** Single Page Hero Header End ***/
 
@@ -733,3 +733,7 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+
+
