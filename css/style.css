@@ -732,6 +732,14 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-dark) !important;
 }
+
+.service-item img {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
 /*** copyright end **/
 
 
