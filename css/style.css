@@ -251,11 +251,11 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/breadcrumb-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/e.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0 0 0;
+    padding: 300px 0 0 0;
 }
 /*** Single Page Hero Header End ***/
 
@@ -732,4 +732,16 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-dark) !important;
 }
-/*** copyright end ***/
+
+.service-item img {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/*** copyright end **/
+
+
+
+
