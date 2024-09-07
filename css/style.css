@@ -674,7 +674,7 @@
 /*** Contact End ***/
 
 
-/*** Footer Start ***/
+/*** Footer Start ***
 .footer {
     border-top: 3px;
     border-right: 0;
@@ -727,7 +727,7 @@
 }
 /*** Footer End ***/
 
-/*** copyright Start ***/
+/*** copyright Start ***
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-dark) !important;
@@ -741,6 +741,86 @@
 }
 
 /*** copyright end **/
+
+
+
+
+
+/*** Footer Start ***/
+.footer {
+    border-top: 3px;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-style: dotted;
+    border-color: var(--bs-light);
+    margin-bottom: 0; /* Removes bottom margin */
+    padding-bottom: 0; /* Removes any padding at the bottom */
+    width: 100%; /* Ensures full width */
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.footer .footer-item a,
+.footer .footer-item p {
+    line-height: 35px;
+    color: var(--bs-body);
+    transition: 0.5s;
+}
+
+.footer .footer-item a:hover {
+    color: var(--bs-primary);
+    letter-spacing: 1px;
+}
+
+.footer .footer-item .footer-gallery {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer .footer-item .footer-gallery img {
+    transition: 0.5s;
+}
+
+.footer .footer-item .footer-gallery:hover img {
+    transform: scale(1.2);
+}
+
+.footer .footer-item .footer-gallery .footer-search-icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.footer .footer-item .footer-gallery:hover .footer-search-icon {
+    opacity: 1;
+    background: rgba(0, 0, 0, .6);
+}
+/*** Footer End ***/
+
+/*** Container Adjustments ***/
+.container {
+    width: 100%; /* Full width for the container */
+    margin: 0 auto; /* Centers the container if a max-width is set */
+    padding: 0; /* Removes all padding */
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
+}
+
+/*** copyright Start ***/
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--bs-dark) !important;
+    margin-bottom: 0; /* Ensures no margin at the bottom */
+    padding-bottom: 0; /* Removes any padding at the bottom */
+    width: 100%; /* Ensures full width */
+}
+/*** copyright end ***/
 
 
 
